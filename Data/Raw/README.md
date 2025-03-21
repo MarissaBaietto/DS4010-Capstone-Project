@@ -1,0 +1,2 @@
+The raw data files are stored in the data/raw/ directory and are organized as follows:
+There are 13 csv files containing the data. These files will be joined by binding rows. The original data came in one csv that was 264,437 KB. In order to upload this data to github, it was split into chunks of 50,000 rows for each data file. The files are sorted in order from oldest car accidents to most recent.
