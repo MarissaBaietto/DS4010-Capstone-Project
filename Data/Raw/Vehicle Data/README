@@ -1,1 +1,5 @@
+## Organization
+Each file contains 50,000 rows from the original dataset, with "Vehicle_Data_Part_1.csv" containing the first 50,000 rows.
 
+## Purpose
+This dataset contains more in-depth information about the car and driver for every vehicle involved in each crash.
