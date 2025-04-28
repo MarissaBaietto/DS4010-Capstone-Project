@@ -1,1 +1,12 @@
+## Organization
 
+## Data Cleaning
+
+Contains the R file used to clean and merge all datasets together.
+
+## Data Modeling
+
+Contains the R file used to model the data, along with the two models created for this project.
+
+## Dashboard Creation
+Contains the R file used to create the dashboard, along with links to all RDS's used when creating the dashboard.
