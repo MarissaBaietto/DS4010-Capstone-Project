@@ -1,1 +1,17 @@
+## Data Organization
 
+### Cleaned Data
+
+Contains a cleaned dataset resulting from the merge of Crash_Data.csv and Vehicle_Data.csv. These two datasets were joined on the attributes "Iowa.DOT.Case.Number" (from Crash_Data) and "CASENUMBER" (from Vehicle_Data). After merging, the data was filtered to ensure that each unique vehicle crash is represented only once by selecting the first occurrence for each crash. The dataset was split into 12 chunks due to size limits, with each chunk containing 50,000 rows from the original data.
+
+### Crash Data
+
+Contains the original dataset sourced from the Iowa Department of Transportation website, linked here: https://data.iowadot.gov/datasets/IowaDOT::crash-data-sor/about. This dataset contains information for every crash that occurred in Iowa from 2014 to 2025. The dataset was split into 13 chunks due to size limits, with each chunk containing 50,000 rows from the original data.
+
+### Vehicle Data
+
+Contains the original dataset sourced from the Iowa Department of Transportation website, linked here: https://data.iowadot.gov/datasets/IowaDOT::crash-vehicle-data-sor/about. This dataset contains information for every vehicle involved in each crash that occurred in Iowa from 2014 to 2025. The dataset was split into 20 chunks due to size limits, with each chunk containing 50,000 rows from the original data.
+
+### Iowa Counties
+
+A dataset depicting the total number of crashes for each county in Iowa, by year. It was created using data from the "mapdata" and "maps" packages in R and the cleaned data.
