@@ -1,0 +1,47 @@
+# METADATA.md
+
+This file describes the variables contained in the Cleaned Data dataset located in `Data/Raw/Cleaned Data`.
+
+| Variable Name               | Type        | Possible Values                           | Description                                                  |
+| --------------------------- | ----------- | ----------------------------------------- | ------------------------------------------------------------ |
+| Iowa.DOT.Case.Number        | String      | Unique ID                                 | Unique identifier for each crash issued by Iowa DOT          |
+| Date.of.Crash               | Date        | YYYY-MM-DD                                | Date when the crash occurred                                 |
+| Month.of.Crash              | Integer     | 1-12                                      | Month when the crash occurred                                |
+| Day.of.Week                 | String      | Monday, Tuesday, ..., Sunday              | Day of the week when the crash occurred                      |
+| Time.of.Crash               | Time/String | HH\:MM                                    | Time the crash occurred                                      |
+| Hour                        | Integer     | 0-23                                      | Hour of the day when the crash occurred                      |
+| City.Name                   | String      | Varies                                    | Name of the city where the crash occurred                    |
+| County.Name                 | String      | Varies                                    | Name of the county where the crash occurred                  |
+| First.Harmful.Event         | String      | Varies                                    | First event that caused damage or injury                     |
+| Manner.of.Crash.Collision   | String      | Varies                                    | Type of collision manner (e.g., rear-end, head-on)           |
+| Major.Cause                 | String      | Varies                                    | Main cause of the crash                                      |
+| Drug.or.Alcohol             | String      | Yes, No, Unknown                          | Whether drugs or alcohol were involved                       |
+| Environmental.Conditions    | String      | Varies                                    | Environmental conditions during the crash (e.g., fog, clear) |
+| Light.Conditions            | String      | Daylight, Dark - lighted, etc.            | Light conditions at the time of the crash                    |
+| Surface.Conditions          | String      | Dry, Wet, Snow, etc.                      | Road surface condition                                       |
+| Weather.Conditions          | String      | Clear, Rain, Snow, etc.                   | Weather during the crash                                     |
+| Work.Zone                   | String      | Yes, No                                   | Whether crash occurred in a work zone                        |
+| Crash.Severity              | String      | Property Damage Only, Minor, Major, Fatal | Severity of the crash                                        |
+| Number.of.Fatalities        | Integer     | 0+                                        | Number of fatalities in the crash                            |
+| Number.of.Injuries          | Integer     | 0+                                        | Total number of injuries                                     |
+| Number.of.Major.Injuries    | Integer     | 0+                                        | Number of major injuries                                     |
+| Number.of.Minor.Injuries    | Integer     | 0+                                        | Number of minor injuries                                     |
+| Number.of.Possible.Injuries | Integer     | 0+                                        | Number of possible injuries                                  |
+| Number.of.Unknown.Injuries  | Integer     | 0+                                        | Number of unknown injuries                                   |
+| Amount.of.Property.Damage   | Numeric     | USD value                                 | Estimated amount of property damage                          |
+| Number.of.Vehicles.Involved | Integer     | 1+                                        | Number of vehicles involved in the crash                     |
+| Total.Number.of.Occupants   | Integer     | 0+                                        | Total number of occupants across vehicles                    |
+| Location                    | String      | Varies                                    | Specific location of the crash                               |
+| Year                        | Integer     | 2014-2025                                 | Year of crash                                                |
+| DRIVERAGE                   | Integer     | Varies                                    | Age of the driver                                            |
+| DRIVERGEN                   | String      | Male, Female, Unknown                     | Gender of the driver                                         |
+| DL\_STATE                   | String      | 2-letter state abbreviation               | State of driver's license issuance                           |
+| CHARGED                     | String      | Yes, No                                   | Whether the driver was charged                               |
+| ALCRESULT                   | String      | Positive, Negative, Unknown               | Alcohol test result                                          |
+| DRUGRESULT                  | String      | Positive, Negative, Unknown               | Drug test result                                             |
+| MAKE                        | String      | Varies                                    | Make (manufacturer) of the vehicle                           |
+| MODEL                       | String      | Varies                                    | Model of the vehicle                                         |
+| SPEEDLIMIT                  | Integer     | 0-80+                                     | Speed limit at crash location                                |
+| HasVehicleData              | String      | Yes, No                                   | Whether associated vehicle data was available                |
+| Fatal                       | Integer     | 0, 1                                      | Whether the crash was fatal (1) or not (0)                   |
+
