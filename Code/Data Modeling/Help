@@ -1,1 +1,13 @@
+## Organization
 
+## Data Models.R
+
+The R file containing all code used to create and train the two models.
+
+## Property_Damage_Model.RData
+
+The R data file containing the model used to predict property damage given certain crash conditions.
+
+## Bodily_Harm_Model.RData
+
+The model used to identify how certain crash characteristics change the odds of bodily harm resulting from the crash can be found here: 
