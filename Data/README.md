@@ -1,4 +1,4 @@
-### The data files are stored on Google Drive and are organized as follows:
+# The data files are stored on Google Drive and are organized as follows:
 
 ## data/csv: Contains the links to all csv files.
 
