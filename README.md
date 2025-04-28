@@ -13,5 +13,4 @@ Code: This folder will contain all code used to create the dashboard, along with
 
 ## Dashboard Link
 Below is the link to view the dashboard:
-[[https://9bv1vi-marissa-baietto.shinyapps.io/Test_4_27_7/](https://9bv1vi-marissa-baietto.shinyapps.io/DS_401_Dashboard/)
-](https://9bv1vi-marissa-baietto.shinyapps.io/DS_401_Dashboard/)
+(https://9bv1vi-marissa-baietto.shinyapps.io/DS_401_Dashboard/)
