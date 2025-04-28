@@ -1,0 +1,44 @@
+# METADATA.md
+
+This file describes the variables contained in the Crash Data dataset.
+
+| Variable Name                      | Type       | Possible Values               | Description                                                                 |
+|:-----------------------------------|:-----------|:------------------------------|:---------------------------------------------------------------------------|
+| **Iowa DOT Case Number**            | String     | Unique case ID                | Identifier assigned by Iowa DOT to each crash.                             |
+| **Law Enforcement Case Number**    | String     | Unique case ID                | Identifier assigned by law enforcement to each crash.                      |
+| **Date of Crash**                  | Date       | YYYY-MM-DD                    | Date when the crash occurred.                                              |
+| **Month of Crash**                 | Integer    | 1–12                          | Month when the crash occurred.                                             |
+| **Day of Week**                    | String     | Monday–Sunday                 | Day of the week when the crash occurred.                                   |
+| **Time of Crash**                  | String     | HH:MM format                  | Exact time when the crash occurred.                                        |
+| **Hour**                           | Integer    | 0–23                          | Hour when the crash occurred (24-hour format).                             |
+| **DOT District**                   | String     | District names/numbers        | DOT District responsible for the location.                                 |
+| **City Name**                      | String     | City names                    | Name of the city where the crash occurred.                                 |
+| **County Name**                    | String     | County names                  | Name of the county where the crash occurred.                               |
+| **Route with System**              | String     | Route descriptions             | Description of the route system involved (e.g., Interstate, Highway).      |
+| **Location Description**           | String     | Text                          | Description of where the crash occurred.                                   |
+| **First Harmful Event**            | String     | Event types                   | The first harmful event in the crash (e.g., collision with vehicle, fixed object). |
+| **Location of First Harmful Event**| String     | Location types                | Where the first harmful event occurred relative to the roadway (e.g., on road, off road). |
+| **Manner of Crash/Collision**      | String     | Collision types               | Type of crash (e.g., rear-end, sideswipe, angle).                          |
+| **Major Cause**                    | String     | Cause descriptions            | Primary cause contributing to the crash.                                   |
+| **Drug or Alcohol**                | String     | Yes/No/Unknown                | Whether drugs or alcohol were involved.                                    |
+| **Environmental Conditions**       | String     | Condition types               | Environmental factors during the crash (e.g., fog, clear, rain).           |
+| **Light Conditions**               | String     | Condition types               | Lighting conditions (e.g., daylight, dark – lighted).                      |
+| **Surface Conditions**             | String     | Surface types                 | Road surface conditions (e.g., dry, wet, icy).                            |
+| **Weather Conditions**             | String     | Weather types                 | Weather during crash (e.g., clear, snow, rain).                            |
+| **Roadway Contribution**           | String     | Contribution types            | Any roadway features that contributed (e.g., potholes, construction).      |
+| **Roadway Type**                   | String     | Type descriptions             | Type of roadway (e.g., rural, urban, divided).                             |
+| **Roadway Surface**                | String     | Surface types                 | Surface material of the roadway (e.g., asphalt, concrete).                 |
+| **Work Zone**                      | String     | Yes/No                        | Whether the crash occurred in a work zone.                                 |
+| **Crash Severity**                 | String     | Severity levels               | Severity of the crash (e.g., Property Damage Only, Injury, Fatality).     |
+| **Number of Fatalities**           | Integer    | 0 or more                     | Number of deaths resulting from the crash.                                 |
+| **Number of Injuries**             | Integer    | 0 or more                     | Number of non-fatal injuries resulting from the crash.                      |
+| **Number of Major Injuries**       | Integer    | 0 or more                     | Number of major injuries sustained.                                        |
+| **Number of Minor Injuries**       | Integer    | 0 or more                     | Number of minor injuries sustained.                                        |
+| **Number of Possible Injuries**    | Integer    | 0 or more                     | Number of possible (but not confirmed) injuries.                           |
+| **Number of Unknown Injuries**     | Integer    | 0 or more                     | Number of injuries with unknown severity.                                  |
+| **Amount of Property Damage**     | Numeric    | Dollar value                  | Estimated monetary value of property damage.                               |
+| **Number of Vehicles Involved**    | Integer    | 1 or more                     | Total number of vehicles involved.                                         |
+| **Total Number of Occupants**      | Integer    | 1 or more                     | Total number of people in the vehicles.                                    |
+| **Travel Direction**               | String     | Cardinal directions           | Direction of vehicle travel (e.g., North, South).                          |
+| **Location**                       | String     | Location descriptions         | Specific crash location information.                                       |
+
