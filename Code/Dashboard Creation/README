@@ -3,3 +3,7 @@
 ## app.R
 
 The code that is ran to create the R shiny dashboard.
+
+## Files to Run
+
+All rds files required to run the above code can be found here: https://drive.google.com/drive/u/2/folders/1ULcHn5aqsByp0KqBJB6NefyMFhzP2cAr , and the RData files containing the models are also required.
