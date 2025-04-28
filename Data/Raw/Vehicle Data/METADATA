@@ -1,0 +1,58 @@
+# METADATA.md
+
+This file describes the variables contained in the Vehicle Data dataset.
+
+| Variable Name                    | Type       | Possible Values               | Description                                                                 |
+|:----------------------------------|:-----------|:------------------------------|:---------------------------------------------------------------------------|
+| **VEH_CRASH_KEY**                 | String     | Unique ID                     | Unique identifier for each crash vehicle record.                            |
+| **VEH_UNITKEY**                   | String     | Unique ID                     | Unique identifier for each vehicle involved in the crash.                  |
+| **CASENUMBER**                    | String     | Unique ID                     | Identifier assigned by law enforcement for the crash.                       |
+| **DRIVERAGE**                     | Integer    | 16–99                          | Age of the driver involved in the crash.                                    |
+| **DRIVERGEN**                     | String     | M/F                            | Gender of the driver (M = Male, F = Female).                               |
+| **DL_STATE**                      | String     | State abbreviations           | The state where the driver’s license was issued.                            |
+| **CHARGED**                       | String     | Yes/No                        | Whether the driver was charged in connection with the crash.                |
+| **ALCRESULT**                     | String     | Yes/No/Unknown                | Whether alcohol was detected in the driver.                                 |
+| **DRUGTEST**                      | String     | Yes/No                        | Whether the driver was tested for drugs.                                    |
+| **DRUGRESULT**                    | String     | Yes/No/Unknown                | Whether drugs were detected in the driver.                                  |
+| **DRIVERCOND**                    | String     | Condition types               | Condition of the driver (e.g., normal, drowsy, impaired).                  |
+| **VISIONOBS**                     | String     | Yes/No                        | Whether vision impairment was observed in the driver.                       |
+| **DCONTCIRC1**                    | String     | Condition types               | First contributing circumstance in the crash.                               |
+| **DCONTCIRC2**                    | String     | Condition types               | Second contributing circumstance in the crash.                              |
+| **VCONFIG**                       | String     | Vehicle configurations        | Configuration of the vehicle involved in the crash (e.g., sedan, SUV).     |
+| **CARGOBODY**                     | String     | Cargo types                   | Type of cargo the vehicle was carrying (e.g., no cargo, hazardous).        |
+| **VYEAR**                         | Integer    | 1900–2025                      | Year the vehicle involved in the crash was manufactured.                    |
+| **MAKE**                          | String     | Vehicle makes                 | The make of the vehicle (e.g., Ford, Toyota).                              |
+| **MODEL**                         | String     | Vehicle models                | The model of the vehicle (e.g., Focus, Camry).                             |
+| **STYLE**                         | String     | Vehicle types                 | Style of the vehicle (e.g., sedan, convertible).                           |
+| **VLP_STATE**                     | String     | State abbreviations           | State where the vehicle's license plate is registered.                     |
+| **OCCUPANTS**                     | Integer    | 1 or more                     | Number of occupants in the vehicle at the time of the crash.               |
+| **VACTION**                       | String     | Action types                  | Driver's action just before the crash (e.g., stopped, turning).            |
+| **SEQEVENTS1**                    | String     | Event sequence                | First event in the crash sequence (e.g., collision with another vehicle).  |
+| **SEQEVENTS2**                    | String     | Event sequence                | Second event in the crash sequence.                                        |
+| **SEQEVENTS3**                    | String     | Event sequence                | Third event in the crash sequence.                                         |
+| **SEQEVENTS4**                    | String     | Event sequence                | Fourth event in the crash sequence.                                        |
+| **MOSTHARM**                      | String     | Harm types                    | The most harmful event or factor in the crash.                             |
+| **SPEEDLIMIT**                    | Integer    | 0 or more                     | Speed limit at the location of the crash.                                  |
+| **TRAFCONT**                      | String     | Traffic conditions            | Traffic conditions at the time of the crash (e.g., light, heavy).         |
+| **FIXOBJSTR**                     | String     | Object types                  | Type of fixed object involved in the crash (e.g., guardrail, tree).        |
+| **MOSTDAMAGE**                    | String     | Damage types                  | Type of damage caused in the crash (e.g., vehicle, property).              |
+| **DAMAGE**                         | String     | Damage types                  | Severity of the vehicle damage (e.g., minor, severe).                      |
+| **CSEVERITY**                     | String     | Severity levels               | Severity of the crash (e.g., fatal, injury, property damage).              |
+| **MAJORCAUSE**                    | String     | Cause descriptions            | Primary contributing cause of the crash.                                   |
+| **CSURFCOND**                     | String     | Condition types               | Road surface condition during the crash (e.g., dry, wet).                  |
+| **DRUGALCREL**                    | String     | Yes/No                        | Whether drugs or alcohol were related to the crash.                         |
+| **ROADTYPE**                      | String     | Road type descriptions        | Type of road involved in the crash (e.g., freeway, local road).           |
+| **WZ_RELATED**                    | String     | Yes/No                        | Whether the crash occurred in a work zone.                                 |
+| **FATALITIES**                    | Integer    | 0 or more                     | Number of fatalities resulting from the crash.                             |
+| **CRASH_YEAR**                    | Integer    | 2014–2025                     | Year the crash occurred.                                                   |
+| **XCOORD**                         | Numeric    | Coordinate values             | Longitude of the crash location.                                           |
+| **YCOORD**                         | Numeric    | Coordinate values             | Latitude of the crash location.                                            |
+| **FROM_MEASURE**                   | Numeric    | Distance from reference point | Distance from a reference point (e.g., mile marker).                       |
+| **TO_MEASURE**                     | Numeric    | Distance from reference point | Distance to a reference point (e.g., mile marker).                         |
+| **ROUTEID**                        | String     | Route ID                      | ID of the route where the crash occurred.                                  |
+| **CRASH_DATETIME**                 | DateTime   | YYYY-MM-DD HH:MM:SS           | Date and time the crash occurred.                                          |
+| **CRASH_DATETIME_UTC**             | DateTime   | UTC formatted                 | Date and time in UTC when the crash occurred.                              |
+| **CRASH_DATETIME_UTC_OFFSET**      | Integer    | Time offset                   | Time offset from UTC for the crash time.                                   |
+| **REST_UPDATED**                   | DateTime   | YYYY-MM-DD HH:MM:SS           | Date and time when the record was last updated.                            |
+| **REST_UPDATED_UTC_OFFSET**        | Integer    | Time offset                   | Time offset from UTC for the update time.                                  |
+| **GLOBALID**                       | String     | Unique ID                     | A globally unique identifier for the record.                               |
