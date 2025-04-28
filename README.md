@@ -8,3 +8,8 @@ Marissa Baietto (GitHub Profile: MarissaBaietto)
 
 ## Folders
 Data: This folder will contain the raw data obtained for this project, along with the final dataset used for this project.
+
+Code: This folder will contain all code used to create the dashboard, along with any R data files. 
+
+## Dashboard Link
+Below is the link to view the dashboard:
