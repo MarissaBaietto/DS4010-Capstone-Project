@@ -58,7 +58,7 @@ Where Crashes Occurred displays a map of Iowa, color-coded by the total number o
 
 ![Map graphics in the "Where Crashes Occured" tab](/Users\mbaie\OneDrive - Iowa State University\Spring 2025\DS 401\DS4010-Capstone-Project\Locations.png)
 
-Driver Characteristics includes bar charts that show the total number of crashes by driver age, gender, and the average and median property damage for male and female drivers. This tab provides a demographic breakdown of crashes and reveals patterns related to driver characteristics.
+Driver Characteristics includes bar charts that show the total number of crashes by driver age and gender. This tab provides a demographic breakdown of crashes and reveals patterns related to driver characteristics.
 
 The Model tab contains two models:
                                                                                                                         
