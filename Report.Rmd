@@ -3,8 +3,8 @@ title: "DS 4010 Report"
 author: "Marissa Baietto"
 date: "2025-05-05"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ## Goal
@@ -73,7 +73,7 @@ For example, users can hover over the bars or parts of the map to see the exact 
 
 I also used Plotly to create a dynamic “day plot” that updates based on the user’s month selection, allowing for a more detailed exploration of daily trends.
 
-![Interactive Plotly graphics in the "When Crashes Occured" tab](/Users\mbaie\OneDrive - Iowa State University\Spring 2025\DS 401\DS4010-Capstone-Project\When.png)
+![Interactive Plotly graphics in the "When Crashes Occured" tab](/Users\mbaie\OneDrive - Iowa State University\Spring 2025\DS 401\DS4010-Capstone-Project\Day.png)
 
 While creating the dashboard was straightforward, I encountered challenges with publishing due to the large data file size. Despite converting CSV files to RDS format, the dashboard still took a long time to publish. Additionally, the graphics initially took 10-20 seconds to load, and I experienced issues with the dashboard disconnecting from the server. After troubleshooting, I discovered that having too many Plotly graphs on a single page caused the issue. By splitting the graphs across multiple tabs, I was able to resolve the problem and ensure that the dashboard functions smoothly.
 
